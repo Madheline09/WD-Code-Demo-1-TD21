@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "meowie";
+    src: url(./assets/fonts/venily.zip);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body, html {
+  background-image: url("./assets/img/BACKGROUND.png"); 
+  
+
+}
+
+.btn {
+  border: 1px black solid;
+  padding: 1rem 0;
+}
+
+.navbar {
+  background-color: pink;   
+  font-family: "Mulish", sans-serif;
+  padding-right: 15 px; padding-left: 15px;
+}
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo a {
+  font-size: 35px;
+  font-weight: 600;
+  color: black;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+li a {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+.hero{
+    background-image: url("./assets/img/Strawberrybg.gif");
+    height: 999px;
+    background-size: cover;
+    background-position:bottom;
+    position: relative;
+    padding: 0px;
+}
+.hero{
+    background-image: url("./assets/img/BACKGROUND.png");
+    height: 200px;
+    width: 200px;
+    position: fixed
+}
+
+.background {
+  height: 100px;
+    width: 100%;
+    align-content: center;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    display:flex;
+    justify-content: center;
+}
+
