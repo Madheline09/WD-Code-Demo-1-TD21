@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "meowie";
-    src: url(./assets/fonts/venily.zip);
+  font-family: "meowie";
+  src: url('./assets/fonts/venily.ttf');
 }
 
 * {
@@ -12,12 +12,15 @@
 
 body, html {
   margin: 0;
-    height: 100vh;
-    background-image: url('/assets/css/Background.gif');
-    background-size: cover;
-    background-position: center;
-    background-repeat: repeat; 
+  height: 100%;
+  background-image: url('https://Madheline09.github.io/WD-Code-Demo-1-TD21/assets/img/Background.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat; 
+  display: flex;
+  flex-direction: column;
 }
+
 nav {
   position: fixed;
   top: 0;
@@ -25,7 +28,6 @@ nav {
   background-color: palevioletred;
   z-index: 1000;
   padding: 15px 0;
-  
 }
 
 nav ul {
@@ -51,10 +53,10 @@ nav a:hover {
   background-color: pink;
 }
 
-
 html {
   scroll-behavior: smooth;
 }
+
 .fixed-gifleft {
   position: fixed;
   bottom: 0px;
@@ -66,6 +68,7 @@ html {
   width: 200px;
   height: auto;
 }
+
 .fixed-gifright {
   position: fixed;
   bottom: 0px;
@@ -77,12 +80,6 @@ html {
   width: 200px;
   height: auto;
 }
-body, html {
-  margin: 0;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
 
 .main {
   flex: 1;
@@ -90,7 +87,7 @@ body, html {
   gap: 0px;
   align-items: center;
   flex-direction: column;
-}  
+}
 
 .main img {
   width: 800px;
@@ -100,18 +97,19 @@ body, html {
 
 @keyframes float {
   0%, 100% {
-    transform: translateY(0);
+      transform: translateY(0);
   }
   50% {
-    transform: translateY(-20px);
+      transform: translateY(-20px);
   }
 }
 
 .img1, .img2, .img3, .img4, .img5 {
   align-self: center;
 }
+
 footer {
-  background-image: url('/assets/img/Footer.png');
+  background-image: url('../assets/img/Footer.png');
   background-size: cover;
   background-position: center;
   color: #fff;
