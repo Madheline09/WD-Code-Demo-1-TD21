@@ -58,6 +58,10 @@
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 Description of the project in details.
+-This project is a "Web Core" inspired design showcasing my works and information about me.
+-The purpose of this project is to showcase my works and enhance my skills in web designing.
+- Interactive buttons, Embedded Social Media Links, Embedded Images
+- HTML and CSS
 
 Guiding Question:
 - What is the project
